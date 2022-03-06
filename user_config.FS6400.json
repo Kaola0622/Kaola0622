@@ -1,0 +1,16 @@
+{
+  "extra_cmdline": {
+    "vid": "0x46f4",
+    "pid": "0x0001",
+    "SasIdxMap": "0",
+    "SataPortMap": "148", 
+    "DiskIdxMap": "0F0004",
+    "sn": "1130LWN123456",
+    "mac1": "001132123456"
+  },
+  "synoinfo": {
+    "supportsystemperature": "no",
+    "supportsystempwarning": "no"
+  },
+  "ramdisk_copy": {}
+}
