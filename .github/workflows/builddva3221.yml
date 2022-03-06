@@ -1,0 +1,23 @@
+name: Build RedPill DSM loader
+
+on: workflow_dispatch
+
+jobs:
+  redpill:
+    runs-on: ubuntu-latest
+    name: Build RedPill lkm and load
+    steps:
+      - uses: actions/checkout@v2.1.0
+        name: checkout src
+        id: checkout
+        with:
+          submodules: 'true'
+      - name: Build DVA3221 7.0.1
+        id: build-dva3221-70
+        run: |
+            bash build-dva3221-7.0.1.sh
+      - name: Archive DVA3221 7.0.1 loader image
+        uses: actions/upload-artifact@v2
+        with:
+          name: redpill-RS4021xs+_7.0.1-loader
+          path: output/redpill-DVA3221_7.0*.img
