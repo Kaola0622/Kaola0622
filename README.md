@@ -1,10 +1,15 @@
-- 👋 Hi, I’m @Kaola0622
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+[来自于Izumiko/redpill-loader-action](https://github.com/Izumiko/redpill-loader-action)
 
-<!---
-Kaola0622/Kaola0622 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+# Building RedPill loader with Github action
+
+DS918+ & DS3615xs DSM 7.0.1 loader
+
+Built loader images are stored at actions/artifact
+
+
+# 用Github的Actions编译RedPill的引导程序
+
+DS918+ 和 DS3615xs 群晖7.0.1引导程序
+
+编译好的程序存放在Actions的artifact位置
